@@ -38,7 +38,7 @@ environments {
     production {
         dataSource {
             dbCreate = "update"
-            url = "jdbc:mysql://localhost:3306/addressbookdb?useUnicode=true&characterEncoding=UTF-8"
+            url = "jdbc:cloudbees://addressbookdb?useUnicode=true&characterEncoding=UTF-8"
             username= "gmamenl"
             password = "root"
             pooled = true
