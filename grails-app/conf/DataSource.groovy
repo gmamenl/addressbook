@@ -8,7 +8,7 @@
 dataSource {
     pooled = true
     driverClassName = "com.mysql.jdbc.Driver"
-    url = "jdbc:mysql://localhost:3306/addressbook?useUnicode=true&characterEncoding=UTF-8"
+    //url = "jdbc:mysql://localhost:3306/addressbook?useUnicode=true&characterEncoding=UTF-8"
     dialect = org.hibernate.dialect.MySQL5InnoDBDialect
 }
 
@@ -37,7 +37,7 @@ environments {
     }
     production {
         dataSource {
-            dbCreate = "create-drop"
+            dbCreate = "create"
             url = "jdbc:cloudbees://addressbookdb?useUnicode=true&characterEncoding=UTF-8"
             username= "gmamenl"
             password = "root"
