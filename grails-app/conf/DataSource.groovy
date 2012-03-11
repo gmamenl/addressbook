@@ -37,7 +37,7 @@ environments {
     }
     production {
         dataSource {
-            dbCreate = "update"
+            dbCreate = "create-drop"
             url = "jdbc:cloudbees://addressbookdb?useUnicode=true&characterEncoding=UTF-8"
             username= "gmamenl"
             password = "root"
