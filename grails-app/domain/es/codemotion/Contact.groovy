@@ -27,6 +27,7 @@ class Contact {
     Date lastUpdated
 
 
+    //some constraints
     static constraints = {
         name        nullable:false, blank: false
         surname1    nullable:false, blank: false
